@@ -37,7 +37,6 @@ class Starmap:
             self.__generate_links()
             self.__generate_tech_levels()
             self.__generate_environments()
-            # self.data.set_index('ID', inplace=True)
         print(self.data)
 
     def __generate_coordinates(self, n, minimum_distance):
@@ -60,6 +59,7 @@ class Starmap:
 
         def links(a):
             return tuple(i for i, b in zip(d['ID'], d['Coordinates']) if not any_intervening_stars(a, b))
+
         d['Whiplines'] = [links(a) for a in d['Coordinates']]
 
     def __generate_tech_levels(self):
@@ -92,7 +92,7 @@ class Starmap:
         legend1 = ax.legend(scatter.legend_elements(prop='sizes')[0], tech_labels,
                             loc='upper left', title="Tech level", bbox_to_anchor=(0, -0.2))
         ax.add_artist(legend1)
-        env_labels = [e for e in ENVIRONMENTS if any(d['Environment'] == e)]
+        env_labels = (e for e in ENVIRONMENTS if any(d['Environment'] == e))
         legend2 = ax.legend(scatter.legend_elements(prop='colors')[0], env_labels,
                             loc='upper right', title="Environment", bbox_to_anchor=(1, -0.2))
         ax.add_artist(legend2)
@@ -105,8 +105,9 @@ class Starmap:
 
 
 if __name__ == '__main__':
-    # m = Starmap(n=100)
-    m = Starmap(filename='starmap.csv')
+    # One of the two lines below should be uncommented
+    # m = Starmap(n=100)  # Generate a new starmap
+    m = Starmap(filename='starmap.csv')  # Read a saved starmap
     m.plot('starmap.png')
     m.save('starmap.csv')
 
