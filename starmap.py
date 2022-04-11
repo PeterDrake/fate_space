@@ -81,7 +81,7 @@ class Starmap:
                 plt.plot(*zip(d.iloc[a]['Coordinates'], d.iloc[b]['Coordinates']), 'r')
         for n, c in zip(d['Name'], d['Coordinates']):
             plt.annotate(n, c, textcoords='offset points', xytext=(0, 5), ha='center', size='4', zorder=3)
-        plt.scatter(*zip(*d['Coordinates']), color='k', zorder=2)
+        plt.scatter(*zip(*d['Coordinates']), color='k', s=10, zorder=2)
         plt.savefig(filename, bbox_inches='tight')
         plt.show()
 
@@ -91,8 +91,8 @@ class Starmap:
 
 
 if __name__ == '__main__':
-    m = Starmap(n=100)
-    # m = Starmap(filename='starmap.csv')
+    # m = Starmap(n=100)
+    m = Starmap(filename='starmap.csv')
     m.plot('starmap.png')
     m.save('starmap.csv')
 
