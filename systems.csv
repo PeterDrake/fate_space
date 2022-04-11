@@ -1,0 +1,101 @@
+Index,Name,X,Y,Whiplines,Tech,Environment
+0,Semprini,65,73,"(2, 13, 77)",Sublight,Volcano
+1,,51,68,"(2, 20, 79)",Primitive whipdrive,Forest
+2,,57,72,"(0, 1, 72)",Sublight,Water
+3,,93,26,"(26, 60)",Orbital,Water
+4,,69,16,"(32, 38, 88)",Orbital,Forest
+5,,18,97,"(36,)",Industrial,Desert
+6,,29,44,"(80, 83, 86)",Industrial,Water
+7,,8,65,"(74, 81, 95)",Industrial,Vacuum
+8,,18,66,"(9, 95)",Orbital,Desert
+9,,30,71,"(8, 18, 20, 89)",Iron age,Ice
+10,,82,27,"(23, 42, 60)",Primitive whipdrive,Desert
+11,,32,2,"(22, 54)",Primitive whipdrive,Volcano
+12,,61,40,"(17, 37, 40, 41)",Nigh magical,Swamp
+13,,67,81,"(0, 59, 73)",Primitive whipdrive,Ice
+14,,31,94,"(36, 85, 89)",Advanced whipdrive,Water
+15,,12,19,"(62, 71, 78)",Industrial,Swamp
+16,,99,41,"(92,)",Medieval,Desert
+17,,66,32,"(12, 23, 32)",Sublight,Vacuum
+18,,37,64,"(9, 20, 27, 79)",Primitive whipdrive,Volcano
+19,,43,34,"(76, 93, 97)",Industrial,Ice
+20,,40,74,"(1, 9, 18, 51)",Industrial,Volcano
+21,,58,87,"(43, 59)",Medieval,Garden
+22,,21,0,"(11, 68)",Advanced whipdrive,Volcano
+23,,74,26,"(10, 17, 88)",Industrial,Water
+24,,36,24,"(62, 93, 97, 98)",Advanced whipdrive,Swamp
+25,,52,14,"(53, 98, 99)",Primitive whipdrive,Vacuum
+26,,94,17,"(3, 56)",Medieval,Desert
+27,,34,58,"(18, 87)",Orbital,Ice
+28,,14,55,"(50, 94, 95)",Orbital,Water
+29,,38,49,"(47, 80)",Medieval,Swamp
+30,,87,38,"(42, 60, 92)",Sublight,Water
+31,,9,90,"(36, 81)",Industrial,Water
+32,,61,20,"(4, 17, 99)",Orbital,Volcano
+33,,0,1,"(82,)",Sublight,Volcano
+34,,47,87,"(51, 67, 72)",Sublight,Desert
+35,,54,53,"(41, 91)",Sublight,Desert
+36,,19,92,"(5, 14, 31)",Sublight,Desert
+37,,56,33,"(12, 76, 99)",Advanced whipdrive,Swamp
+38,,62,11,"(4, 39, 53)",Primitive whipdrive,Desert
+39,,65,2,"(38,)",Sublight,Volcano
+40,,68,46,"(12, 57, 90)",Primitive whipdrive,Ice
+41,,51,45,"(12, 35, 47)",Medieval,Vacuum
+42,,82,36,"(10, 30, 90)",Orbital,Volcano
+43,,67,93,"(21, 52, 69, 73)",Industrial,Water
+44,,98,80,"(58,)",Orbital,Desert
+45,,83,52,"(70, 90, 96)",Primitive whipdrive,Desert
+46,,93,90,"(48, 52, 58)",Advanced whipdrive,Water
+47,,46,46,"(29, 41, 76, 91)",Advanced whipdrive,Swamp
+48,,99,92,"(46,)",Industrial,Volcano
+49,,0,43,"(74, 75)",Orbital,Ice
+50,,12,50,"(28, 74, 75)",Medieval,Desert
+51,,42,88,"(20, 34, 85)",Iron age,Ice
+52,,76,96,"(43, 46)",Primitive whipdrive,Desert
+53,,54,5,"(25, 38, 65)",Medieval,Water
+54,,37,5,"(11, 65, 98)",Orbital,Desert
+55,,98,67,"(66, 84)",Medieval,Swamp
+56,,94,8,"(26,)",Sublight,Desert
+57,,73,58,"(40, 96)",Orbital,Ice
+58,,92,85,"(44, 46, 63)",Industrial,Volcano
+59,,60,81,"(13, 21, 72)",Orbital,Ice
+60,,91,31,"(3, 10, 30)",Medieval,Swamp
+61,,85,67,"(77, 84, 96)",Primitive whipdrive,Water
+62,,19,22,"(15, 24, 83)",Industrial,Forest
+63,,88,79,"(58, 64, 84)",Industrial,Water
+64,,74,85,"(63, 73)",Advanced whipdrive,Garden
+65,,44,1,"(53, 54)",Sublight,Ice
+66,,94,58,"(55, 70)",Orbital,Swamp
+67,,51,96,"(34, 69)",Orbital,Desert
+68,,12,10,"(22, 78)",Orbital,Swamp
+69,,61,98,"(43, 67)",Sublight,Ice
+70,,92,46,"(45, 66, 92)",Orbital,Water
+71,,8,33,"(15, 75, 83)",Sublight,Water
+72,,54,79,"(2, 34, 59)",Sublight,Water
+73,,69,87,"(13, 43, 64)",Medieval,Desert
+74,,7,54,"(7, 49, 50)",Advanced whipdrive,Swamp
+75,,8,41,"(49, 50, 71)",Sublight,Water
+76,,47,39,"(19, 37, 47)",Medieval,Swamp
+77,,77,70,"(0, 61)",Primitive whipdrive,Swamp
+78,,5,14,"(15, 68, 82)",Primitive whipdrive,Desert
+79,,48,60,"(1, 18, 91)",Industrial,Water
+80,,32,48,"(6, 29, 87)",Industrial,Desert
+81,,2,67,"(7, 31)",Sublight,Water
+82,,0,13,"(33, 78)",Industrial,Water
+83,,20,36,"(6, 62, 71)",Primitive whipdrive,Ice
+84,,91,72,"(55, 61, 63)",Medieval,Ice
+85,,35,98,"(14, 51)",Sublight,Ice
+86,,33,33,"(6, 97)",Sublight,Vacuum
+87,,31,53,"(27, 80, 94)",Sublight,Water
+88,,74,20,"(4, 23)",Sublight,Swamp
+89,,28,83,"(9, 14)",Industrial,Forest
+90,,73,44,"(40, 42, 45)",Orbital,Vacuum
+91,,47,53,"(35, 47, 79)",Industrial,Volcano
+92,,93,39,"(16, 30, 70)",Primitive whipdrive,Water
+93,,45,26,"(19, 24, 99)",Orbital,Water
+94,,23,57,"(28, 87)",Orbital,Desert
+95,,15,62,"(7, 8, 28)",Primitive whipdrive,Water
+96,,82,62,"(45, 57, 61)",Medieval,Desert
+97,,36,29,"(19, 24, 86)",Iron age,Ice
+98,,39,17,"(24, 25, 54)",Medieval,Water
+99,,53,24,"(25, 32, 37, 93)",Industrial,Ice
