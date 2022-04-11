@@ -26,7 +26,7 @@ ENVIRONMENTS = ('Asteroid',
 class Starmap:
     def __init__(self, *, filename=None, n=100, minimum_distance=5):
         if filename:
-            self.data = pd.read_csv(filename, index=False)
+            self.data = pd.read_csv(filename)
             # Some columns have to be converted from strings to tuples
             self.data['Coordinates'] = [eval(c) for c in self.data['Coordinates']]
             self.data['Whiplines'] = [eval(c) for c in self.data['Whiplines']]
@@ -72,16 +72,30 @@ class Starmap:
 
     def plot(self, filename):
         d = self.data
-        plt.figure(figsize=(6, 6), dpi=200).add_subplot().set_aspect('equal')
+        ax = plt.figure(figsize=(6, 6), dpi=200).add_subplot()
+        ax.set_aspect('equal')
         plt.xlim([-5, 105])
         plt.ylim([-5, 105])
         plt.grid()
+        # Plot whiplines
         for a in d['ID']:
             for b in d.iloc[a]['Whiplines']:
-                plt.plot(*zip(d.iloc[a]['Coordinates'], d.iloc[b]['Coordinates']), 'r')
+                plt.plot(*zip(d.iloc[a]['Coordinates'], d.iloc[b]['Coordinates']), 'b', linewidth=0.5)
+        # Plot names of systems
         for n, c in zip(d['Name'], d['Coordinates']):
             plt.annotate(n, c, textcoords='offset points', xytext=(0, 5), ha='center', size='4', zorder=3)
-        plt.scatter(*zip(*d['Coordinates']), color='k', s=10, zorder=2)
+        # Plot systems, with size based on tech level and color on environment
+        sizes = [1 + 5 * TECH_LEVELS.index(t) for t in d['Tech level']]
+        colors = [ENVIRONMENTS.index(e) for e in d['Environment']]
+        scatter = plt.scatter(*zip(*d['Coordinates']), c=colors, s=sizes, zorder=2)
+        tech_labels = [t for t in TECH_LEVELS if any(d['Tech level'] == t)]
+        legend1 = ax.legend(scatter.legend_elements(prop='sizes')[0], tech_labels,
+                            loc='upper left', title="Tech level", bbox_to_anchor=(0, -0.2))
+        ax.add_artist(legend1)
+        env_labels = [e for e in ENVIRONMENTS if any(d['Environment'] == e)]
+        legend2 = ax.legend(scatter.legend_elements(prop='colors')[0], env_labels,
+                            loc='upper right', title="Environment", bbox_to_anchor=(1, -0.2))
+        ax.add_artist(legend2)
         plt.savefig(filename, bbox_inches='tight')
         plt.show()
 
@@ -91,8 +105,8 @@ class Starmap:
 
 
 if __name__ == '__main__':
-    m = Starmap(n=100)
-    # m = Starmap(filename='starmap.csv')
+    # m = Starmap(n=100)
+    m = Starmap(filename='starmap.csv')
     m.plot('starmap.png')
     m.save('starmap.csv')
 

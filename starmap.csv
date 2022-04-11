@@ -1,101 +1,101 @@
 ID,Name,Coordinates,Whiplines,Tech level,Environment
-0,0,"(33, 58)","(0, 3, 84)",0 Orbital,Swamp
-1,1,"(12, 79)","(1, 7, 24, 59, 78)",-1 Industrial,Swamp
-2,2,"(14, 91)","(2, 18, 24, 86)",-1 Industrial,Vacuum
-3,3,"(33, 63)","(0, 3, 37)",-2 Medieval,Vacuum
-4,4,"(96, 96)","(4, 90)",-1 Industrial,Ice
-5,5,"(65, 54)","(5, 55, 71, 80)",0 Orbital,Swamp
-6,6,"(0, 35)","(6, 27)",0 Orbital,Swamp
-7,7,"(3, 80)","(1, 7, 26)",0 Orbital,Desert
-8,8,"(41, 68)","(8, 37, 70)",+4 Nigh magical,Vacuum
-9,9,"(76, 97)","(9, 14, 31, 83)",+2 Primitive whipdrive,Ice
-10,10,"(92, 19)","(10, 22, 68, 97)",0 Orbital,Swamp
-11,11,"(81, 60)","(11, 35, 93)",+1 Sublight,Desert
-12,12,"(77, 38)","(12, 21, 95, 99)",+1 Sublight,Desert
-13,13,"(35, 19)","(13, 16, 51, 73)",0 Orbital,Desert
-14,14,"(75, 87)","(9, 14, 72, 93)",-1 Industrial,Swamp
-15,15,"(46, 56)","(15, 37, 64, 88)",+3 Advanced whipdrive,Swamp
-16,16,"(31, 23)","(13, 16, 44, 52)",0 Orbital,Water
-17,17,"(18, 29)","(17, 27, 62)",-3 Iron age,Desert
-18,18,"(10, 96)","(2, 18, 26)",0 Orbital,Ice
-19,19,"(14, 44)","(19, 42, 67, 89)",-2 Medieval,Ice
-20,20,"(48, 99)","(20, 98)",+2 Primitive whipdrive,Forest
-21,21,"(73, 42)","(12, 21, 71, 80)",0 Orbital,Asteroid
-22,22,"(90, 26)","(10, 22, 23, 91)",+1 Sublight,Water
-23,23,"(83, 25)","(22, 23, 99)",-1 Industrial,Volcano
-24,24,"(12, 86)","(1, 2, 24, 26)",0 Orbital,Ice
-25,25,"(23, 46)","(25, 42, 46)",+1 Sublight,Ice
-26,26,"(5, 90)","(7, 18, 24, 26)",-2 Medieval,Swamp
-27,27,"(8, 36)","(6, 17, 27, 67)",-2 Medieval,Ice
-28,28,"(70, 34)","(28, 75, 99)",+3 Advanced whipdrive,Forest
-29,29,"(81, 49)","(29, 35, 71, 95)",-2 Medieval,Desert
-30,30,"(36, 1)","(30, 47, 69)",+3 Advanced whipdrive,Swamp
-31,31,"(85, 92)","(9, 31, 79, 90)",+2 Primitive whipdrive,Desert
-32,32,"(54, 88)","(32, 74, 98)",0 Orbital,Ice
-33,33,"(31, 90)","(33, 66, 86)",-1 Industrial,Ice
-34,34,"(43, 83)","(34, 48, 70, 98)",-2 Medieval,Desert
-35,35,"(88, 54)","(11, 29, 35, 49)",-2 Medieval,Swamp
-36,36,"(11, 12)","(36, 52)",+1 Sublight,Vacuum
-37,37,"(42, 61)","(3, 8, 15, 37)",+2 Primitive whipdrive,Volcano
-38,38,"(53, 0)","(38, 45, 69, 77)",-2 Medieval,Desert
-39,39,"(46, 26)","(39, 44, 61, 92)",0 Orbital,Desert
-40,40,"(56, 45)","(40, 54, 80)",+3 Advanced whipdrive,Volcano
-41,41,"(77, 3)","(41, 60, 87)",+1 Sublight,Volcano
-42,42,"(19, 43)","(19, 25, 42)",-1 Industrial,Ice
-43,43,"(56, 72)","(43, 55, 58, 70)",+2 Primitive whipdrive,Desert
-44,44,"(34, 27)","(16, 39, 44)",-1 Industrial,Water
-45,45,"(49, 10)","(38, 45, 61, 73, 94)",0 Orbital,Desert
-46,46,"(29, 51)","(25, 46, 50, 84)",-2 Medieval,Water
-47,47,"(28, 4)","(30, 47, 51)",-1 Industrial,Water
-48,48,"(38, 87)","(34, 48, 66, 81)",0 Orbital,Ice
-49,49,"(94, 46)","(35, 49, 82, 95)",-2 Medieval,Volcano
-50,50,"(38, 41)","(46, 50, 56, 64)",0 Orbital,Water
-51,51,"(25, 11)","(13, 47, 51, 52)",+3 Advanced whipdrive,Ice
-52,52,"(19, 17)","(16, 36, 51, 52, 62)",-1 Industrial,Vacuum
-53,53,"(57, 95)","(53, 74, 83)",+1 Sublight,Water
-54,54,"(55, 35)","(40, 54, 75, 92)",+1 Sublight,Forest
-55,55,"(62, 65)","(5, 43, 55, 57, 88)",0 Orbital,Ice
-56,56,"(47, 40)","(50, 56, 92)",-1 Industrial,Forest
-57,57,"(68, 70)","(55, 57, 58, 93)",-1 Industrial,Ice
-58,58,"(60, 78)","(43, 57, 58, 72)",-1 Industrial,Garden
-59,59,"(14, 68)","(1, 59, 85, 96)",0 Orbital,Swamp
-60,60,"(67, 11)","(41, 60, 77)",0 Orbital,Swamp
-61,61,"(51, 17)","(39, 45, 61, 76)",-1 Industrial,Swamp
-62,62,"(15, 23)","(17, 52, 62)",0 Orbital,Desert
-63,63,"(95, 10)","(63, 68, 97)",0 Orbital,Ice
-64,64,"(43, 51)","(15, 50, 64)",-1 Industrial,Volcano
-65,65,"(94, 71)","(65, 79)",+1 Sublight,Ice
-66,66,"(37, 93)","(33, 48, 66)",0 Orbital,Forest
-67,67,"(5, 45)","(19, 27, 67)",-2 Medieval,Volcano
-68,68,"(87, 11)","(10, 63, 68, 87)",0 Orbital,Water
-69,69,"(42, 1)","(30, 38, 69, 73)",0 Orbital,Volcano
-70,70,"(48, 73)","(8, 34, 43, 70)",0 Orbital,Ice
-71,71,"(73, 51)","(5, 21, 29, 71)",+2 Primitive whipdrive,Ice
-72,72,"(64, 85)","(14, 58, 72, 74)",-1 Industrial,Volcano
-73,73,"(40, 11)","(13, 45, 69, 73)",0 Orbital,Ice
-74,74,"(59, 88)","(32, 53, 72, 74)",-2 Medieval,Swamp
-75,75,"(63, 36)","(28, 54, 75, 80)",0 Orbital,Desert
-76,76,"(57, 18)","(61, 76, 94)",+2 Primitive whipdrive,Desert
-77,77,"(61, 5)","(38, 60, 77, 94)",+2 Primitive whipdrive,Desert
-78,78,"(19, 81)","(1, 78, 86)",+2 Primitive whipdrive,Garden
-79,79,"(88, 77)","(31, 65, 79, 93)",0 Orbital,Desert
-80,80,"(65, 42)","(5, 21, 40, 75, 80)",0 Orbital,Volcano
-81,81,"(34, 82)","(48, 81)",-2 Medieval,Water
-82,82,"(98, 53)","(49, 82)",+1 Sublight,Desert
-83,83,"(67, 97)","(9, 53, 83)",-1 Industrial,Water
-84,84,"(26, 56)","(0, 46, 84, 85)",-2 Medieval,Ice
-85,85,"(23, 63)","(59, 84, 85)",0 Orbital,Water
-86,86,"(24, 88)","(2, 33, 78, 86)",+2 Primitive whipdrive,Swamp
-87,87,"(82, 8)","(41, 68, 87)",-2 Medieval,Ice
-88,88,"(53, 60)","(15, 55, 88)",0 Orbital,Forest
-89,89,"(16, 49)","(19, 89, 96)",-2 Medieval,Water
-90,90,"(91, 94)","(4, 31, 90)",0 Orbital,Volcano
-91,91,"(87, 31)","(22, 91, 95)",-4 Stone age,Volcano
-92,92,"(47, 32)","(39, 54, 56, 92)",-1 Industrial,Desert
-93,93,"(81, 73)","(11, 14, 57, 79, 93)",-2 Medieval,Vacuum
-94,94,"(57, 11)","(45, 76, 77, 94)",0 Orbital,Swamp
-95,95,"(87, 40)","(12, 29, 49, 91, 95)",0 Orbital,Water
-96,96,"(8, 61)","(59, 89, 96)",+1 Sublight,Desert
-97,97,"(96, 15)","(10, 63, 97)",-1 Industrial,Volcano
-98,98,"(49, 92)","(20, 32, 34, 98)",-1 Industrial,Volcano
-99,99,"(75, 33)","(12, 23, 28, 99)",+1 Sublight,Desert
+0,Semprini,"(27, 49)","(0, 4, 22, 30, 89)",+2 Primitive whipdrive,Forest
+1,1,"(44, 82)","(1, 2, 41, 84)",+2 Primitive whipdrive,Ice
+2,2,"(50, 81)","(1, 2, 57)",+1 Sublight,Water
+3,3,"(46, 47)","(3, 4, 17, 82, 85)",0 Orbital,Forest
+4,4,"(32, 44)","(0, 3, 4, 81)",0 Orbital,Volcano
+5,5,"(18, 3)","(5, 6, 55)",-1 Industrial,Ice
+6,6,"(10, 13)","(5, 6, 49, 71)",0 Orbital,Water
+7,7,"(42, 13)","(7, 53, 91)",+1 Sublight,Water
+8,8,"(84, 20)","(8, 37, 98)",-2 Medieval,Desert
+9,9,"(73, 61)","(9, 74, 76)",0 Orbital,Water
+10,10,"(63, 35)","(10, 54, 65, 82)",-1 Industrial,Forest
+11,11,"(95, 50)","(11, 29, 97)",0 Orbital,Desert
+12,12,"(12, 27)","(12, 46, 49, 86)",0 Orbital,Volcano
+13,13,"(17, 71)","(13, 28, 39, 80)",0 Orbital,Swamp
+14,14,"(85, 98)","(14, 34)",+2 Primitive whipdrive,Swamp
+15,15,"(68, 97)","(15, 93)",-1 Industrial,Ice
+16,16,"(59, 23)","(16, 43, 54, 65, 75)",-1 Industrial,Ice
+17,17,"(48, 58)","(3, 17, 61, 89)",-1 Industrial,Vacuum
+18,18,"(12, 58)","(18, 28, 30)",-2 Medieval,Ice
+19,19,"(57, 71)","(19, 57, 61)",+1 Sublight,Volcano
+20,20,"(97, 98)","(20, 69)",-1 Industrial,Desert
+21,21,"(46, 2)","(21, 53, 63)",-1 Industrial,Swamp
+22,22,"(22, 43)","(0, 22, 33)",-1 Industrial,Ice
+23,23,"(66, 84)","(23, 79, 93)",+2 Primitive whipdrive,Desert
+24,24,"(87, 0)","(24, 58, 98)",-2 Medieval,Desert
+25,25,"(30, 91)","(25, 35, 84)",-1 Industrial,Swamp
+26,26,"(41, 94)","(26, 84)",-1 Industrial,Volcano
+27,27,"(87, 46)","(27, 29, 36, 40)",+1 Sublight,Vacuum
+28,28,"(15, 66)","(13, 18, 28, 45)",+2 Primitive whipdrive,Volcano
+29,29,"(92, 43)","(11, 27, 29, 90, 97)",+1 Sublight,Ice
+30,30,"(18, 53)","(0, 18, 30, 33)",+1 Sublight,Water
+31,31,"(50, 26)","(31, 65, 75, 85, 91)",+1 Sublight,Swamp
+32,32,"(3, 91)","(32, 48, 60)",0 Orbital,Water
+33,33,"(16, 47)","(22, 30, 33, 96)",0 Orbital,Volcano
+34,34,"(84, 93)","(14, 34, 67, 69)",+1 Sublight,Water
+35,35,"(21, 92)","(25, 35, 51, 87)",-3 Iron age,Ice
+36,36,"(79, 44)","(27, 36, 74, 77, 99)",0 Orbital,Garden
+37,37,"(87, 27)","(8, 37, 47, 90, 94)",+1 Sublight,Desert
+38,38,"(95, 66)","(38, 73, 95)",0 Orbital,Forest
+39,39,"(22, 68)","(13, 39, 59)",+1 Sublight,Water
+40,40,"(86, 53)","(27, 40, 73, 74)",-1 Industrial,Desert
+41,41,"(41, 73)","(1, 41, 61, 70)",-2 Medieval,Desert
+42,42,"(36, 22)","(42, 66, 81)",+2 Primitive whipdrive,Garden
+43,43,"(63, 8)","(16, 43, 63, 64)",+1 Sublight,Forest
+44,44,"(81, 74)","(44, 73, 76, 88)",+1 Sublight,Water
+45,45,"(6, 67)","(28, 45, 50, 60)",+2 Primitive whipdrive,Water
+46,46,"(7, 28)","(12, 46, 83, 96)",0 Orbital,Vacuum
+47,47,"(82, 30)","(37, 47, 54, 99)",-3 Iron age,Swamp
+48,48,"(9, 92)","(32, 48, 87)",0 Orbital,Water
+49,49,"(14, 19)","(6, 12, 49)",0 Orbital,Volcano
+50,50,"(1, 67)","(45, 50)",+2 Primitive whipdrive,Volcano
+51,51,"(23, 84)","(35, 51, 80, 92)",0 Orbital,Swamp
+52,52,"(61, 63)","(52, 61, 62, 68)",-1 Industrial,Ice
+53,53,"(42, 8)","(7, 21, 53, 55)",+2 Primitive whipdrive,Desert
+54,54,"(70, 28)","(10, 16, 47, 54)",0 Orbital,Water
+55,55,"(29, 8)","(5, 53, 55)",+1 Sublight,Ice
+56,56,"(13, 98)","(56, 87)",-1 Industrial,Desert
+57,57,"(56, 78)","(2, 19, 57, 79)",-1 Industrial,Volcano
+58,58,"(99, 1)","(24, 58, 94)",-3 Iron age,Volcano
+59,59,"(33, 63)","(39, 59, 70, 89)",0 Orbital,Vacuum
+60,60,"(7, 79)","(32, 45, 60, 80)",+1 Sublight,Desert
+61,61,"(55, 66)","(17, 19, 41, 52, 61)",-2 Medieval,Desert
+62,62,"(68, 69)","(52, 62, 76)",0 Orbital,Ice
+63,63,"(51, 5)","(21, 43, 63)",+2 Primitive whipdrive,Desert
+64,64,"(74, 0)","(43, 64, 98)",+2 Primitive whipdrive,Ice
+65,65,"(57, 29)","(10, 16, 31, 65)",0 Orbital,Desert
+66,66,"(43, 27)","(42, 66, 91)",-2 Medieval,Desert
+67,67,"(82, 88)","(34, 67, 88, 93)",0 Orbital,Ice
+68,68,"(63, 50)","(52, 68, 82)",+2 Primitive whipdrive,Forest
+69,69,"(92, 90)","(20, 34, 69, 88)",0 Orbital,Ice
+70,70,"(36, 72)","(41, 59, 70, 92)",-1 Industrial,Desert
+71,71,"(5, 20)","(6, 71, 83)",-1 Industrial,Water
+72,72,"(66, 45)","(72, 77, 82)",0 Orbital,Desert
+73,73,"(89, 66)","(38, 40, 44, 73)",-2 Medieval,Desert
+74,74,"(77, 51)","(9, 36, 40, 74)",0 Orbital,Water
+75,75,"(53, 22)","(16, 31, 75)",+3 Advanced whipdrive,Desert
+76,76,"(75, 69)","(9, 44, 62, 76)",-2 Medieval,Ice
+77,77,"(71, 42)","(36, 72, 77)",+2 Primitive whipdrive,Water
+78,78,"(97, 29)","(78, 90, 94)",-2 Medieval,Volcano
+79,79,"(59, 85)","(23, 57, 79)",+1 Sublight,Water
+80,80,"(13, 79)","(13, 51, 60, 80)",-2 Medieval,Water
+81,81,"(30, 31)","(4, 42, 81, 86)",+1 Sublight,Forest
+82,82,"(61, 45)","(3, 10, 68, 72, 82)",-1 Industrial,Water
+83,83,"(0, 25)","(46, 71, 83)",-2 Medieval,Water
+84,84,"(37, 88)","(1, 25, 26, 84, 92)",+1 Sublight,Desert
+85,85,"(48, 35)","(3, 31, 85)",-3 Iron age,Water
+86,86,"(20, 27)","(12, 81, 86)",0 Orbital,Water
+87,87,"(14, 93)","(35, 48, 56, 87)",-4 Stone age,Ice
+88,88,"(87, 82)","(44, 67, 69, 88, 95)",0 Orbital,Asteroid
+89,89,"(38, 59)","(0, 17, 59, 89)",-2 Medieval,Desert
+90,90,"(90, 35)","(29, 37, 78, 90, 99)",-2 Medieval,Desert
+91,91,"(45, 22)","(7, 31, 66, 91)",+1 Sublight,Vacuum
+92,92,"(32, 83)","(51, 70, 84, 92)",+2 Primitive whipdrive,Desert
+93,93,"(69, 92)","(15, 23, 67, 93)",-3 Iron age,Ice
+94,94,"(95, 23)","(37, 58, 78, 94)",+2 Primitive whipdrive,Desert
+95,95,"(95, 77)","(38, 88, 95)",0 Orbital,Swamp
+96,96,"(2, 34)","(33, 46, 96)",+2 Primitive whipdrive,Volcano
+97,97,"(99, 46)","(11, 29, 97)",-2 Medieval,Ice
+98,98,"(79, 1)","(8, 24, 64, 98)",0 Orbital,Desert
+99,99,"(81, 36)","(36, 47, 90, 99)",0 Orbital,Desert
