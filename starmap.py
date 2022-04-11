@@ -35,7 +35,8 @@ class Starmap:
             self.data['Name'] = [str(i) for i in self.data['ID']]
             self.__generate_coordinates(n, minimum_distance)
             self.__generate_links()
-            self.__generate_techs()
+            self.__generate_tech_levels()
+            self.__generate_environments()
             # self.data.set_index('ID', inplace=True)
             print(self.data)
 
@@ -61,9 +62,13 @@ class Starmap:
             return tuple(i for i, b in zip(d['ID'], d['Coordinates']) if not any_intervening_stars(a, b))
         d['Whiplines'] = [links(a) for a in d['Coordinates']]
 
-    def __generate_techs(self):
+    def __generate_tech_levels(self):
         d = self.data
-        d['Tech'] = [TECH_LEVELS[roll_df(4) + 4] for _ in d['ID']]
+        d['Tech level'] = [TECH_LEVELS[roll_df(4) + 4] for _ in d['ID']]
+
+    def __generate_environments(self):
+        d = self.data
+        d['Environment'] = [ENVIRONMENTS[roll_df(4) + 4] for _ in d['ID']]
 
     def plot(self, filename):
         d = self.data
@@ -84,21 +89,10 @@ class Starmap:
         print('Saving to ' + filename)
         self.data.to_csv(filename)
 
-#
-#
-# def main():
-#     # stars, links = generate_starmap(100)
-#     # names = tuple(range(len(stars)))
-#     # techs = tuple(TECH_LEVELS[roll_df(4) + 4] for _ in stars)
-#     # environs = tuple(ENVIRONS[roll_df(4) + 4] for _ in stars)
-#     stars, names, links, techs, environs = read_starmap('systems.csv')
-#     print_starmap(stars, names, links, techs, environs)
-#     plot_starmap(stars, names, links)  # Could we show tech and environ as color and shape?
-
 
 if __name__ == '__main__':
     m = Starmap(n=100)
     # m = Starmap(filename='starmap.csv')
     m.plot('starmap.png')
-    # m.save('starmap.csv')
+    m.save('starmap.csv')
 
