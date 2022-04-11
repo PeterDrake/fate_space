@@ -26,7 +26,7 @@ ENVIRONMENTS = ('Asteroid',
 class Starmap:
     def __init__(self, *, filename=None, n=100, minimum_distance=5):
         if filename:
-            self.data = pd.read_csv(filename)
+            self.data = pd.read_csv(filename, index=False)
             # Some columns have to be converted from strings to tuples
             self.data['Coordinates'] = [eval(c) for c in self.data['Coordinates']]
             self.data['Whiplines'] = [eval(c) for c in self.data['Whiplines']]
@@ -38,7 +38,7 @@ class Starmap:
             self.__generate_tech_levels()
             self.__generate_environments()
             # self.data.set_index('ID', inplace=True)
-            print(self.data)
+        print(self.data)
 
     def __generate_coordinates(self, n, minimum_distance):
         def f():
@@ -87,12 +87,12 @@ class Starmap:
 
     def save(self, filename):
         print('Saving to ' + filename)
-        self.data.to_csv(filename)
+        self.data.to_csv(filename, index=False)
 
 
 if __name__ == '__main__':
-    # m = Starmap(n=100)
-    m = Starmap(filename='starmap.csv')
+    m = Starmap(n=100)
+    # m = Starmap(filename='starmap.csv')
     m.plot('starmap.png')
     m.save('starmap.csv')
 
