@@ -1,101 +1,101 @@
-ID,Name,Coordinates,Whiplines,Tech level,Environment
-0,Semprini,"(41, 21)","(0, 3, 13, 37)",-1 Industrial,Desert
-1,1,"(67, 52)","(1, 45, 47, 76)",-1 Industrial,Desert
-2,2,"(3, 25)","(2, 10, 22, 90)",-1 Industrial,Swamp
-3,3,"(39, 14)","(0, 3, 75)",+3 Advanced whipdrive,Swamp
-4,4,"(55, 95)","(4, 39, 67, 85)",0 Orbital,Desert
-5,5,"(29, 56)","(5, 12, 31, 40, 60)",+1 Sublight,Desert
-6,6,"(36, 88)","(6, 8, 17, 57)",-1 Industrial,Garden
-7,7,"(28, 36)","(7, 68, 82)",+2 Primitive whipdrive,Volcano
-8,8,"(30, 93)","(6, 8, 25)",0 Orbital,Ice
-9,9,"(30, 27)","(9, 16, 82)",-3 Iron age,Volcano
-10,10,"(3, 34)","(2, 10, 15)",-1 Industrial,Desert
-11,11,"(64, 79)","(11, 20, 29, 48)",0 Orbital,Swamp
-12,12,"(29, 63)","(5, 12, 33)",-1 Industrial,Desert
-13,13,"(42, 27)","(0, 13, 62, 87)",-3 Iron age,Water
-14,14,"(6, 59)","(14, 26, 30, 73)",+2 Primitive whipdrive,Ice
-15,15,"(8, 49)","(10, 15, 26, 68)",+2 Primitive whipdrive,Asteroid
-16,16,"(28, 20)","(9, 16, 70, 92)",-1 Industrial,Swamp
-17,17,"(27, 82)","(6, 17, 71)",+2 Primitive whipdrive,Water
-18,18,"(54, 26)","(18, 37, 94)",-1 Industrial,Water
-19,19,"(84, 31)","(19, 53, 59, 69)",0 Orbital,Swamp
-20,20,"(71, 86)","(11, 20, 43)",+1 Sublight,Swamp
-21,21,"(63, 1)","(21, 42, 88)",0 Orbital,Ice
-22,22,"(3, 13)","(2, 22, 66)",-3 Iron age,Water
-23,23,"(10, 96)","(23, 46)",-2 Medieval,Desert
-24,24,"(60, 40)","(24, 32, 45)",+1 Sublight,Ice
-25,25,"(27, 99)","(8, 25, 46)",-2 Medieval,Ice
-26,26,"(1, 53)","(14, 15, 26)",+3 Advanced whipdrive,Ice
-27,27,"(71, 66)","(27, 29, 64, 72)",0 Orbital,Forest
-28,28,"(18, 77)","(28, 55, 71, 78)",-2 Medieval,Desert
-29,29,"(60, 72)","(11, 27, 29, 81)",0 Orbital,Volcano
-30,30,"(18, 58)","(14, 30, 31, 55)",+2 Primitive whipdrive,Desert
-31,31,"(24, 55)","(5, 30, 31)",-1 Industrial,Garden
-32,32,"(55, 44)","(24, 32, 41, 63)",-1 Industrial,Volcano
-33,33,"(30, 70)","(12, 33, 71, 80)",+3 Advanced whipdrive,Water
-34,34,"(99, 71)","(34, 35, 52)",+1 Sublight,Volcano
-35,35,"(88, 79)","(34, 35, 74, 79, 99)",+1 Sublight,Swamp
-36,36,"(35, 4)","(36, 75, 92, 97)",+1 Sublight,Swamp
-37,37,"(52, 18)","(0, 18, 37, 65)",-2 Medieval,Volcano
-38,38,"(87, 0)","(38, 50, 61, 88)",-1 Industrial,Desert
-39,39,"(56, 85)","(4, 39, 48, 58)",0 Orbital,Ice
-40,40,"(39, 53)","(5, 40, 41)",-2 Medieval,Desert
-41,41,"(42, 49)","(32, 40, 41, 83, 84)",-1 Industrial,Desert
-42,42,"(58, 0)","(21, 42, 65)",+2 Primitive whipdrive,Swamp
-43,43,"(76, 88)","(20, 43, 44, 79)",0 Orbital,Forest
-44,44,"(74, 97)","(43, 44, 85)",+1 Sublight,Water
-45,45,"(63, 47)","(1, 24, 45)",0 Orbital,Volcano
-46,46,"(15, 92)","(23, 25, 46, 78)",+2 Primitive whipdrive,Swamp
-47,47,"(65, 57)","(1, 47, 64)",0 Orbital,Desert
-48,48,"(61, 83)","(11, 39, 48)",+3 Advanced whipdrive,Volcano
-49,49,"(99, 16)","(49, 50, 98)",+2 Primitive whipdrive,Water
-50,50,"(84, 14)","(38, 49, 50, 69)",0 Orbital,Asteroid
-51,51,"(0, 82)","(51, 78, 93)",0 Orbital,Swamp
-52,52,"(90, 63)","(34, 52, 86)",0 Orbital,Swamp
-53,53,"(92, 33)","(19, 53, 96, 98)",-2 Medieval,Vacuum
-54,54,"(86, 91)","(54, 79, 89)",-1 Industrial,Desert
-55,55,"(15, 71)","(28, 30, 55, 73)",+2 Primitive whipdrive,Desert
-56,56,"(34, 39)","(56, 60, 82, 84)",+2 Primitive whipdrive,Ice
-57,57,"(43, 76)","(6, 57, 58, 81)",-1 Industrial,Ice
-58,58,"(49, 81)","(39, 57, 58)",-1 Industrial,Volcano
-59,59,"(76, 36)","(19, 59, 77)",-1 Industrial,Water
-60,60,"(28, 50)","(5, 56, 60, 68)",0 Orbital,Swamp
-61,61,"(93, 0)","(38, 61)",-1 Industrial,Volcano
-62,62,"(38, 30)","(13, 62, 82)",-2 Medieval,Desert
-63,63,"(53, 39)","(32, 63, 94)",+1 Sublight,Volcano
-64,64,"(71, 61)","(27, 47, 64)",+1 Sublight,Desert
-65,65,"(51, 12)","(37, 42, 65, 75)",0 Orbital,Ice
-66,66,"(1, 5)","(22, 66)",+3 Advanced whipdrive,Desert
-67,67,"(50, 94)","(4, 67)",-1 Industrial,Swamp
-68,68,"(18, 43)","(7, 15, 60, 68)",0 Orbital,Vacuum
-69,69,"(80, 19)","(19, 50, 69)",-2 Medieval,Desert
-70,70,"(18, 23)","(16, 70, 90)",0 Orbital,Volcano
-71,71,"(23, 74)","(17, 28, 33, 71)",-2 Medieval,Desert
-72,72,"(77, 70)","(27, 72, 74, 86)",+2 Primitive whipdrive,Desert
-73,73,"(10, 69)","(14, 55, 73, 93)",-2 Medieval,Swamp
-74,74,"(82, 74)","(35, 72, 74)",+1 Sublight,Volcano
-75,75,"(40, 8)","(3, 36, 65, 75)",0 Orbital,Ice
-76,76,"(76, 48)","(1, 76, 77, 95)",0 Orbital,Ice
-77,77,"(75, 41)","(59, 76, 77, 91)",0 Orbital,Swamp
-78,78,"(10, 83)","(28, 46, 51, 78)",-1 Industrial,Volcano
-79,79,"(81, 87)","(35, 43, 54, 79)",-1 Industrial,Ice
-80,80,"(38, 69)","(33, 80, 81)",-2 Medieval,Water
-81,81,"(46, 70)","(29, 57, 80, 81, 83)",0 Orbital,Desert
-82,82,"(33, 34)","(7, 9, 56, 62, 82)",-4 Stone age,Swamp
-83,83,"(46, 55)","(41, 81, 83)",0 Orbital,Ice
-84,84,"(40, 44)","(41, 56, 84)",0 Orbital,Desert
-85,85,"(60, 96)","(4, 44, 85)",-1 Industrial,Forest
-86,86,"(82, 64)","(52, 72, 86, 95)",-2 Medieval,Water
-87,87,"(46, 32)","(13, 87, 94)",-3 Iron age,Volcano
-88,88,"(77, 0)","(21, 38, 88)",+2 Primitive whipdrive,Volcano
-89,89,"(94, 93)","(54, 89, 99)",0 Orbital,Vacuum
-90,90,"(13, 23)","(2, 70, 90)",+2 Primitive whipdrive,Ice
-91,91,"(82, 41)","(77, 91)",+3 Advanced whipdrive,Desert
-92,92,"(27, 12)","(16, 36, 92)",-3 Iron age,Vacuum
-93,93,"(4, 74)","(51, 73, 93)",-1 Industrial,Swamp
-94,94,"(55, 34)","(18, 63, 87, 94)",0 Orbital,Swamp
-95,95,"(83, 52)","(76, 86, 95, 96)",0 Orbital,Asteroid
-96,96,"(97, 49)","(53, 95, 96)",+2 Primitive whipdrive,Desert
-97,97,"(26, 0)","(36, 97)",+4 Nigh magical,Volcano
-98,98,"(97, 31)","(49, 53, 98)",0 Orbital,Desert
-99,99,"(94, 87)","(35, 89, 99)",+2 Primitive whipdrive,Ice
+ID,Name,Coordinates,Whiplines,Tech level,Environment,Aspect 1,Aspect 2,Aspect 3
+0,Elvedi,"(41, 21)","(0, 3, 13, 37)",-1 Industrial,Desert,Holy See of the Church of the Third God,,
+1,Talornia 237,"(67, 52)","(1, 45, 47, 76)",-1 Industrial,Desert,,,
+2,Nardania Kappa,"(3, 25)","(2, 10, 22, 90)",-1 Industrial,Swamp,,,
+3,Alpha,"(39, 14)","(0, 3, 75)",+3 Advanced whipdrive,Swamp,Seat of the Patriarchy,,
+4,Merbudram Elarnia,"(55, 95)","(4, 39, 67, 85)",0 Orbital,Desert,,,
+5,Delta Wonule So'reus,"(29, 56)","(5, 12, 31, 40, 60)",+1 Sublight,Desert,,,
+6,Hondikar 272,"(36, 88)","(6, 8, 17, 57)",-1 Industrial,Garden,,,
+7,Thaopia's Moon,"(28, 36)","(7, 68, 82)",+2 Primitive whipdrive,Volcano,,,
+8,Foxonia,"(30, 93)","(6, 8, 25)",0 Orbital,Ice,,,
+9,Ostrobooch,"(30, 27)","(9, 16, 82)",-3 Iron age,Volcano,Unstable core,,
+10,White B’eria Uranaroid,"(3, 34)","(2, 10, 15)",-1 Industrial,Desert,,,
+11,Ketispor,"(64, 79)","(11, 20, 29, 48)",0 Orbital,Swamp,Enmeshed in civil war,Gem mines,
+12,Zeta Nibryn,"(29, 63)","(5, 12, 33)",-1 Industrial,Desert,,,
+13,Zawak,"(42, 27)","(0, 13, 62, 87)",-3 Iron age,Water,Habitable satellite of a purple gas giant,,
+14,Syneaux Uranton,"(6, 59)","(14, 26, 30, 73)",+2 Primitive whipdrive,Ice,,,
+15,Poolgatis 69,"(8, 49)","(10, 15, 26, 68)",+2 Primitive whipdrive,Asteroid,,,
+16,Synntos,"(28, 20)","(9, 16, 70, 92)",-1 Industrial,Swamp,,,
+17,Wadcury Depitas 71,"(27, 82)","(6, 17, 71)",+2 Primitive whipdrive,Water,,,
+18,Fundibae,"(54, 26)","(18, 37, 94)",-1 Industrial,Water,Extreme Tides,Face dancers,
+19,Edigran,"(84, 31)","(19, 53, 59, 69)",0 Orbital,Swamp,Borrad outpost,,
+20,Semprini,"(71, 86)","(11, 20, 43)",+1 Sublight,Swamp,Space elevator,Civil war,
+21,Dembar,"(63, 1)","(21, 42, 88)",0 Orbital,Ice,Liquid oceans under the ice,10000 km rally race,Murderous Lemmings
+22,Deeperia,"(3, 13)","(2, 22, 66)",-3 Iron age,Water,,,
+23,Ariaoid,"(10, 96)","(23, 46)",-2 Medieval,Desert,,,
+24,Woornia Æeria Moon,"(60, 40)","(24, 32, 45)",+1 Sublight,Ice,,,
+25,Guntvav,"(27, 99)","(8, 25, 46)",-2 Medieval,Ice,,,
+26,Space Target,"(1, 53)","(14, 15, 26)",+3 Advanced whipdrive,Ice,Planet-sized shopping mall,Conglomerex corporate world,
+27,Senelos Papvana 134,"(71, 66)","(27, 29, 64, 72)",0 Orbital,Forest,,,
+28,Carella's Moon,"(18, 77)","(28, 55, 71, 78)",-2 Medieval,Desert,,,
+29,Brumeria's Moon,"(60, 72)","(11, 27, 29, 81)",0 Orbital,Volcano,,,
+30,Spisconson,"(18, 58)","(14, 30, 31, 55)",+2 Primitive whipdrive,Desert,,,
+31,Fladibox,"(24, 55)","(5, 30, 31)",-1 Industrial,Garden,Breadbasket of the Patriarchy,,
+32,Aeriauria III,"(55, 44)","(24, 32, 41, 63)",-1 Industrial,Volcano,,,
+33,Tau Umchil Deolok 234,"(30, 70)","(12, 33, 71, 80)",+3 Advanced whipdrive,Water,,,
+34,Praudros Munuria VII,"(99, 71)","(34, 35, 52)",+1 Sublight,Volcano,,,
+35,Amorkon 4,"(88, 79)","(34, 35, 74, 79, 99)",+1 Sublight,Swamp,,,
+36,Tacorria,"(35, 4)","(36, 75, 92, 97)",+1 Sublight,Swamp,Industrial and Fabrication facilities,,
+37,Gnowm,"(52, 18)","(0, 18, 37, 65)",-2 Medieval,Volcano,Molybdenum mining,Stratospheric Geysers,
+38,Elonine 321,"(87, 0)","(38, 50, 61, 88)",-1 Industrial,Desert,,,
+39,Porviz X,"(56, 85)","(4, 39, 48, 58)",0 Orbital,Ice,,,
+40,Ll'nor,"(39, 53)","(5, 40, 41)",-2 Medieval,Desert,,,
+41,Oxius Miranurn's Reach,"(42, 49)","(32, 40, 41, 83, 84)",-1 Industrial,Desert,,,
+42,Fía,"(58, 0)","(21, 42, 65)",+2 Primitive whipdrive,Swamp,Fían homeworld,Best brandy in the galaxy,
+43,Lantis,"(76, 88)","(20, 43, 44, 79)",0 Orbital,Forest,Home of the megafauna,Famous cuisine,
+44,Lotos Ligburto,"(74, 97)","(43, 44, 85)",0 Orbital,Ice,,,
+45,Corrongolia 136,"(63, 47)","(1, 24, 45)",0 Orbital,Volcano,,,
+46,Ziccimia,"(15, 92)","(23, 25, 46, 78)",+2 Primitive whipdrive,Swamp,,,
+47,Aseuter,"(65, 57)","(1, 47, 64)",0 Orbital,Desert,,,
+48,Freyr,"(61, 83)","(11, 39, 48)",+3 Advanced whipdrive,Volcano,Failed vacation planet for the rich,Smelly with plenty of parking for your ship,
+49,Tageron,"(99, 16)","(49, 50, 98)",+2 Primitive whipdrive,Water,,,
+50,Uvyria,"(84, 14)","(38, 49, 50, 69)",0 Orbital,Asteroid,,,
+51,Bienides,"(0, 82)","(51, 78, 93)",0 Orbital,Swamp,,,
+52,Kiruta,"(90, 63)","(34, 52, 86)",0 Orbital,Swamp,,,
+53,Karrataka,"(92, 33)","(19, 53, 96, 98)",-2 Medieval,Vacuum,Living among relics of the gods,Good tea,
+54,Naebos,"(86, 91)","(54, 79, 89)",-1 Industrial,Desert,,,
+55,Gnidozuno,"(15, 71)","(28, 30, 55, 73)",+2 Primitive whipdrive,Desert,,,
+56,Brore E5DP,"(34, 39)","(56, 60, 82, 84)",+2 Primitive whipdrive,Ice,,,
+57,Thagua II44,"(43, 76)","(6, 57, 58, 81)",-1 Industrial,Ice,,,
+58,Southastea VII,"(49, 81)","(39, 57, 58)",-1 Industrial,Volcano,,,
+59,Echerth,"(76, 36)","(19, 59, 77)",-1 Industrial,Water,,,
+60,Thonilia K8,"(28, 50)","(5, 56, 60, 68)",0 Orbital,Swamp,,,
+61,Thazov 1LO,"(93, 0)","(38, 61)",-1 Industrial,Volcano,,,
+62,Caethara,"(38, 30)","(13, 62, 82)",-2 Medieval,Desert,,,
+63,Aeternae,"(53, 39)","(32, 63, 94)",+1 Sublight,Volcano,,,
+64,Polyhymnia,"(71, 61)","(27, 47, 64)",+1 Sublight,Desert,,,
+65,Ceto,"(51, 12)","(37, 42, 65, 75)",+1 Sublight,Water,Underwater cities,Predatory tiny mermaids,Intense surface storms
+66,Biangolia,"(1, 5)","(22, 66)",+3 Advanced whipdrive,Desert,Robot world,,
+67,Chara Z,"(50, 94)","(4, 67)",-1 Industrial,Swamp,,,
+68,Styx,"(18, 43)","(7, 15, 60, 68)",0 Orbital,Vacuum,,,
+69,Xortoob,"(80, 19)","(19, 50, 69)",-2 Medieval,Desert,Civil war,War-beasts of the sky,
+70,San Janssen,"(18, 23)","(16, 70, 90)",0 Orbital,Volcano,,,
+71,Penghou,"(23, 74)","(17, 28, 33, 71)",-2 Medieval,Desert,,,
+72,Passamezzo,"(77, 70)","(27, 72, 74, 86)",+2 Primitive whipdrive,Desert,,,
+73,Shikasta,"(10, 69)","(14, 55, 73, 93)",-2 Medieval,Swamp,,,
+74,Feynman,"(82, 74)","(35, 72, 74)",+1 Sublight,Volcano,,,
+75,Khione,"(40, 8)","(3, 36, 65, 75)",0 Orbital,Ice,"Seismic instability, Icequakes",,
+76,Niraleko,"(76, 48)","(1, 76, 77, 95)",0 Orbital,Ice,,,
+77,Thrylos,"(75, 41)","(59, 76, 77, 91)",0 Orbital,Swamp,,,
+78,Kenaleko,"(10, 83)","(28, 46, 51, 78)",-1 Industrial,Volcano,,,
+79,Cyprodine,"(81, 87)","(35, 43, 54, 79)",-1 Industrial,Ice,Low level radiation from planet core,Faction wars over resources,
+80,Zerminiar,"(38, 69)","(33, 80, 81)",-2 Medieval,Water,,,
+81,Haramis,"(46, 70)","(29, 57, 80, 81, 83)",0 Orbital,Desert,,,
+82,Vrugzakh,"(33, 34)","(7, 9, 56, 62, 82)",-4 Stone age,Swamp,,,
+83,Scamu,"(46, 55)","(41, 81, 83)",0 Orbital,Ice,,,
+84,Flit,"(40, 44)","(41, 56, 84)",0 Orbital,Desert,,,
+85,Esta,"(60, 96)","(4, 44, 85)",-1 Industrial,Forest,,,
+86,Kuut,"(82, 64)","(52, 72, 86, 95)",-2 Medieval,Water,,,
+87,Adaleko,"(46, 32)","(13, 87, 94)",-3 Iron age,Volcano,,,
+88,Phoenix,"(77, 0)","(21, 38, 88)",+2 Primitive whipdrive,Volcano,University,Toxic Natural Atmosphere,
+89,Daenia,"(94, 93)","(54, 89, 99)",0 Orbital,Vacuum,,,
+90,Bensin CC9,"(13, 23)","(2, 70, 90)",+2 Primitive whipdrive,Ice,,,
+91,Borradaile,"(82, 41)","(77, 91)",+3 Advanced whipdrive,Desert,Borrad homeworld,,
+92,Taurus WM2,"(27, 12)","(16, 36, 92)",-3 Iron age,Vacuum,Uninhabited,,
+93,Flamber NR5,"(4, 74)","(51, 73, 93)",-1 Industrial,Swamp,,,
+94,Cromulax,"(55, 34)","(18, 63, 87, 94)",0 Orbital,Swamp,Unsettling Hivemind,,
+95,Rarohenga,"(83, 52)","(76, 86, 95, 96)",0 Orbital,Asteroid,,,
+96,Pilkahdus,"(97, 49)","(53, 95, 96)",+2 Primitive whipdrive,Desert,,,
+97,Zubigort,"(26, 0)","(36, 97)",+4 Nigh magical,Volcano,Patriarchy research base,,
+98,Fintamar,"(97, 31)","(49, 53, 98)",0 Orbital,Desert,,,
+99,Stelo SB9,"(94, 87)","(35, 89, 99)",+2 Primitive whipdrive,Ice,,,

@@ -74,15 +74,19 @@ class Starmap:
         d = self.data
         ax = plt.figure(figsize=(6, 6), dpi=200).add_subplot()
         ax.set_aspect('equal')
+        # Entire map
         plt.xlim([-5, 105])
         plt.ylim([-5, 105])
+        # Specific region
+        # plt.xlim([35, 90])
+        # plt.ylim([-5, 50])
         plt.grid()
         # Plot whiplines
         for a in d['ID']:
             for b in d.iloc[a]['Whiplines']:
                 plt.plot(*zip(d.iloc[a]['Coordinates'], d.iloc[b]['Coordinates']), 'b', linewidth=0.5)
         # Plot names of systems
-        for n, c in zip(d['Name'], d['Coordinates']):
+        for n, c in zip(d['Name'], d['Coordinates']):  # Size 4 works if you want the entire map
             plt.annotate(n, c, textcoords='offset points', xytext=(0, 5), ha='center', size='4', zorder=3)
         # Plot systems, with size based on tech level and color on environment
         sizes = [1 + 5 * TECH_LEVELS.index(t) for t in d['Tech level']]
@@ -90,11 +94,11 @@ class Starmap:
         scatter = plt.scatter(*zip(*d['Coordinates']), c=colors, s=sizes, zorder=2)
         tech_labels = [t for t in TECH_LEVELS if any(d['Tech level'] == t)]
         legend1 = ax.legend(scatter.legend_elements(prop='sizes')[0], tech_labels,
-                            loc='upper left', title="Tech level", bbox_to_anchor=(0, -0.2))
+                            loc='upper left', title="Tech level", bbox_to_anchor=(0, -0.1))
         ax.add_artist(legend1)
         env_labels = (e for e in ENVIRONMENTS if any(d['Environment'] == e))
         legend2 = ax.legend(scatter.legend_elements(prop='colors')[0], env_labels,
-                            loc='upper right', title="Environment", bbox_to_anchor=(1, -0.2))
+                            loc='upper right', title="Environment", bbox_to_anchor=(1, -0.1))
         ax.add_artist(legend2)
         plt.savefig(filename, bbox_inches='tight')
         plt.show()
@@ -109,5 +113,4 @@ if __name__ == '__main__':
     # m = Starmap(n=100)  # Generate a new starmap
     m = Starmap(filename='starmap.csv')  # Read a saved starmap
     m.plot('starmap.png')
-    m.save('starmap.csv')
-
+    # m.save('starmap.csv')
